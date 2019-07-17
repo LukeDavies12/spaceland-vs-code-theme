@@ -43,7 +43,7 @@ React
 The font in the preview image is Fira Code, [available here](https://github.com/tonsky/FiraCode). These are the settings I used:
 
 ```
-"editor.fontFamily": "Dank Mono",
+"editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true,
 ```
 
