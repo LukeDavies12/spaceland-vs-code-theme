@@ -115,7 +115,7 @@
 		"breadcrumbPicker.background": "#21252B",
 		"editorWidget.border": "#ffffff22",
 		"editorWidget.resizeBorder": "#ffffff44",
-		"editorWidget.background": "#372d4b",
+		"editorWidget.background": "#21252B",
 		// notification colors - The colors below only apply for VS Code versions 1.21 and higher.
 		"notificationCenter.border": "#dd99ff",
 		"notificationCenterHeader.foreground": "#b3b9c5",
