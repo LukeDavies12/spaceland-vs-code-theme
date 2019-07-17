@@ -8,6 +8,9 @@
         "type": "git",
         "url": "https://github.com/LukeDavies12/spaceland-vs-code-theme"
     },
+    "bugs": {
+        "url": "https://github.com/LukeDavies12/spaceland-vs-code-theme/issues"
+    },
     "license": "SEE LICENSE IN LICENSE.txt",
     "icon": "logo.png",
     "engines": {
