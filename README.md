@@ -4,8 +4,11 @@ A Visual Studio Code theme for the wonderers. Fine-tuned for those of us who lik
 
 ## Images
 
+Javascript
 ![Javascript Demo Picture](spaceland-demo-1.png)
 
+React
+![React Demo Picture](spaceland-demo-react.png)
 
 ## Colors
 
@@ -55,6 +58,9 @@ I use this setting:
         "#ff99dd"
 ],
 ```
+
+The icon theme used in the demo is the dark version of icons from the [City Lights Icon package](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc).
+
 
 ### Misc
 
