@@ -2,13 +2,13 @@
 
 A Visual Studio Code theme for the wonderers. Fine-tuned for those of us who like to code late into the night and look up at the stars. This theme is great for people who want to get to work with a beautiful space inspired theme. 
 
-## Images
+## Demo Images
 
 Javascript
-![Javascript Demo Picture](spaceland-demo-1.png)
+![Javascript Demo Image](spaceland-demo-1.png)
 
 React
-![React Demo Picture](spaceland-demo-react.png)
+![React Demo Image](spaceland-demo-react.png)
 
 ## Colors
 
@@ -64,8 +64,8 @@ The icon theme used in the demo is the dark version of icons from the [City Ligh
 
 ### Misc
 
-This is my first foray into creating a theme, so if you see something amiss, please feel free to [file an issue](https://github.com/sdras/night-owl-vscode-theme/issues)! I'm sure there are things I missed.
+This is my first theme, so if you see something off, please feel free to [file an issue](https://github.com/sdras/night-owl-vscode-theme/issues)! I'm sure there are things I missed.
 
-This theme used the awesome New Moon Theme as a starting point.
+To make this theme I used the awesome [New Moon Syntax Theme](https://marketplace.visualstudio.com/items?itemName=taniarascia.new-moon-vscode) as a starting point, and this great article [Creating a VS Code Theme](https://css-tricks.com/creating-a-vs-code-theme/) as a reference.
 
 **Enjoy!**
