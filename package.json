@@ -8,7 +8,7 @@
         "type": "git",
         "url": "https://github.com/LukeDavies12/spaceland-vs-code-theme"
     },
-    "license": "MIT",
+    "license": "SEE LICENSE IN LICENSE.txt",
     "icon": "logo.png",
     "engines": {
         "vscode": "^1.36.0"
