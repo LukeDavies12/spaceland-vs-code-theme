@@ -1,0 +1,242 @@
+{
+	"name": "Spaceland",
+	"type": "dark",
+	"colors": {
+		"welcomePage.background": "#171717",
+		"welcomePage.buttonBackground": "#21252B",
+		"focusBorder": "#dd99ff",
+		"textLink.foreground": "#dd99ff",
+		"textLink.activeForeground": "#dd99ff",
+		"dropdown.background": "#171717",
+		"dropdown.listBackground": "#171717",
+		"inputValidation.errorBackground": "#f99",
+		"inputValidation.errorBorder": "#fa8c8c",
+		"editor.background": "#171717",
+		"editor.foreground": "#d9d9d9",
+		"editor.lineHighlightBackground": "#0f0f0f",
+		"editor.selectionBackground": "#444444",
+		"editorCursor.foreground": "#dd99ff",
+		"editorSuggestWidget.highlightForeground": "#99ddff",
+		"editorSuggestWidget.background": "#2d2d2d",
+		"editorSuggestWidget.selectedBackground": "#202020",
+		"sideBarSectionHeader.border": "#282828",
+		"statusBarItem.hoverBackground": "#2a2f37",
+		"editor.findMatchBackground": "#101010",
+		"editor.findMatchBorder": "#99ddff",
+		"editorLineNumber.foreground": "#606060",
+		"editorLineNumber.activeForeground": "#909090",
+		"scrollbarSlider.background": "#44444480",
+		"scrollbarSlider.activeBackground": "#88888880",
+		"scrollbarSlider.hoverBackground": "#66666680",
+		"sideBarSectionHeader.background": "#202020",
+		"statusBar.background": "#21252B",
+		"statusBar.foreground": "#d4d4d4",
+		"statusBar.noFolderBackground": "#21252B",
+		"statusBar.debuggingForeground": "#ff99dd",
+		"extensionButton.prominentBackground": "#d9d9d9",
+		"extensionButton.prominentForeground": "#21252B",
+		"extensionButton.prominentHoverBackground": "#d9d9d9",
+		"list.activeSelectionBackground": "#35353536",
+		"list.activeSelectionForeground": "#ffffff",
+		"list.dropBackground": "#49494966",
+		"list.focusBackground": "#111111",
+		"list.focusForeground": "#ffffff",
+		"list.highlightForeground": "#ff9999",
+		"list.hoverBackground": "#111111",
+		"list.hoverForeground": "#ffffff",
+		"list.inactiveSelectionBackground": "#36363666",
+		"list.inactiveSelectionForeground": "#ffffff",
+		"list.inactiveFocusBackground": "#3a3a3a99",
+		"list.errorForeground": "#ff9999",
+		"list.warningForeground": "#72f1b8bb",
+		"editorBracketMatch.background": "#101010",
+		"editorBracketMatch.border": "#ff99dd",
+		"editorError.foreground": "#ff9999",
+		"panel.background": "#202020",
+		"inputOption.activeBorder": "#99ddff",
+		"inputValidation.warningBorder": "#ff9999",
+		"input.background": "#333333",
+		"editor.findMatchHighlightBackground": "#cda86955",
+		"tab.border": "#241b2f00",
+		"tab.activeBorder": "#dd99ff",
+		"tab.inactiveBackground": "#202020",
+		"tab.activeBackground": "#171717",
+		"diffEditor.border": "#444444",
+		"terminal.background": "#171717",
+		"terminal.foreground": "#b3b9c5",
+		"terminal.ansiBlack": "#666666",
+		"terminal.ansiBlue": "#9999ff",
+		"terminal.ansiCyan": "#ccff99",
+		"terminal.ansiGreen": "#99ffdd",
+		"terminal.ansiMagenta": "#ffff99",
+		"terminal.ansiRed": "#ff9999",
+		"terminal.ansiWhite": "#ff99dd",
+		"terminal.ansiYellow": "#99ddff",
+		"terminal.ansiBrightBlack": "#777777",
+		"terminal.ansiBrightBlue": "#9999ff",
+		"terminal.ansiBrightCyan": "#ccff99",
+		"terminal.ansiBrightGreen": "#99ffdd",
+		"terminal.ansiBrightMagenta": "#ffff99",
+		"terminal.ansiBrightRed": "#ff9999",
+		"terminal.ansiBrightWhite": "#ff99dd",
+		"terminal.ansiBrightYellow": "#99ddff",
+		"terminal.selectionBackground": "#111111",
+		"peekViewResult.background": "#171717",
+		"peekViewEditor.background": "#171717",
+		"peekView.border": "#333333",
+		"peekViewResult.selectionBackground": "#444444",
+		"peekViewEditor.matchHighlightBackground": "#2d2d2d",
+		"peekViewResult.matchHighlightBackground": "#2d2d2d",
+		"activityBar.background": "#111111",
+		"activityBar.border": "#252525",
+		"activityBar.foreground": "#9b9b9b",
+		"sideBar.background": "#171717",
+		"sideBar.border": "#252525",
+		"sideBar.foreground": "#d9d9d9",
+		"statusBar.debuggingBackground": "#ff9999",
+		"statusBarItem.prominentBackground": "#171717",
+		"statusBarItem.prominentHoverBackground": "#171717",
+		"titleBar.activeBackground": "#21252B",
+		"titleBar.inactiveBackground": "#21252B",
+		"editorGroup.dropBackground": "#21252B",
+		"editorGroupHeader.tabsBackground": "#111111",
+		"editorHoverWidget.background": "#171717",
+		"button.background": "#d9d9d9",
+		"button.foreground": "#21252B",
+		"badge.background": "#d9d9d9",
+		"badge.foreground": "#21252B",
+		"gitDecoration.modifiedResourceForeground": "#dd99ff",
+		"gitDecoration.deletedResourceForeground": "#ff9999",
+		"gitDecoration.addedResourceForeground": "#99ffdd",
+		"gitDecoration.untrackedResourceForeground": "#99ffddc4",
+		"gitDecoration.ignoredResourceForeground": "#ffffff59",
+		"breadcrumbPicker.background": "#21252B",
+		"editorWidget.border": "#ffffff22",
+		"editorWidget.resizeBorder": "#ffffff44",
+		"editorWidget.background": "#372d4b",
+		// notification colors - The colors below only apply for VS Code versions 1.21 and higher.
+		"notificationCenter.border": "#dd99ff",
+		"notificationCenterHeader.foreground": "#b3b9c5",
+		"notificationCenterHeader.background": "#111111",
+		"notificationToast.border": "#dd99ff",
+		"notifications.foreground": "#d9d9d9",
+		"notifications.background": "#21252B",
+		"notifications.border": "#dd99ff",
+		"notificationLink.foreground": "#dd99ff",
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#99ffdd"
+			},
+			"name": "String",
+			"scope": "string, constant.other.symbol, entity.other.inherited-class, punctuation.definition.string, markup.underline.link.image.markdown, string.other.link, markup.raw.inline, markup.inserted, markup.inserted.git_gutter, string.other.link.title.markdown, variable.parameter.url.scss"
+		},
+		{
+			"settings": {
+				"foreground": "#dd99ff"
+			},
+			"name": "Keyword",
+			"scope": "keyword, keyword.operator.expression.typeof, variable.language.this, storage, support.function.construct.output.php, keyword.operator.new, markup.inline.raw.string.markdown, keyword.operator.expression.import.js"
+		},
+		{
+			"settings": {
+				"foreground": "#99ddff"
+			},
+			"name": "Attribute",
+			"scope": "entity.other.attribute-name, entity.other.attribute-name.class.css, markup.heading punctuation.definition.heading, entity.name.section, entity.other.attribute-name.class.css, string.unquoted.alias.graphql, support.type.property-name.json, entity.name.tag.yaml, variable.other.property.js.jsx, meta.object-literal.key.js.jsx, variable.other.property.js"
+		},
+		{
+			"settings": {
+				"foreground": "#ff99dd"
+			},
+			"name": "Function",
+			"scope": "variable.other.property.php, variable.other.member.php, entity.name.function.php, meta.function-call, meta.property-value, meta.selector, entity.name.function.ts, entity.name.function.js, entity.name.function.tsx, entity.name.function.go, entity.name.function.java, entity.name.function.python"
+		},
+		{
+			"settings": {
+				"foreground": "#9999ff"
+			},
+			"name": "Tag",
+			"scope": "support.class, entity.name.type.class, meta.entity.new.name.expr, entity.name.tag.structure.any.html, meta.tag.structure.any.html, punctuation.definition.tag.html, meta.tag.sgml.doctype.html, keyword.other.special-method, entity.name.type, entity.name.tag, support.variable.dom.js, meta.tag.structure.any.html, markup.bold, punctuation.definition.bold, entity.name.type.ts, support.variable.dom.ts, entity.name.function.graphql"
+		},
+		{
+			"settings": {
+				"foreground": "#4a7baa"
+			},
+			"name": "TS Types",
+			"scope": "meta.type.annotation.ts, support.type.primitive.ts, entity.name.type.ts, meta.type.annotation.ts, variable.other.jsdoc"
+		},
+		{
+			"settings": {
+				"foreground": "#c2ccd6"
+			},
+			"name": "TS Param",
+			"scope": "variable.parameter.ts, variable.parameter.ts, variable.parameter.tsx, entity.tag.tagbraces.nunjucks, string.unquoted.filter-pipe.nunjucks, punctuation.colon.graphql, string.unquoted.graphql"
+		},
+		{
+			"settings": {
+				"foreground": "#9b9b9b"
+			},
+			"name": "Comment",
+			"scope": "comment, punctuation.definition.comment, punctuation.separator.key-value, punctuation.separator, meta.template.expression.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js, markup.underline.link.markdown, punctuation.definition.metadata.markdown"
+		},
+		{
+			"settings": {
+				"foreground": "#ff9999"
+			},
+			"name": "Variable",
+			"scope": "punctuation.definition.variable, variable, variable.language.this.php, markup.deleted, markup.deleted.git_gutter, invalid.illegal, string.unquoted.tag-string.nunjucks, keyword.other.unit.percentage.css, keyword.other.unit.px.css, keyword.other.unit.em.css, keyword.other.unit.rem.css, keyword.other.unit.s.css"
+		},
+		{
+			"settings": {
+				"foreground": "#ffcc99"
+			},
+			"name": "Number",
+			"scope": "constant.numeric, keyword.other.unit, markup.quote, support.constant.color.w3c-standard-color-name.css"
+		},
+		{
+			"settings": {
+				"foreground": "#ffff99"
+			},
+			"name": "Support",
+			"scope": "support.function, constant, entity.other.attribute-name.id, markup.italic, punctuation.definition.italic, markup.changed, markup.changed.git_gutter, support.constant.property-value"
+		},
+		{
+			"settings": {
+				"foreground": "#f8cfa0"
+			},
+			"name": "Operator",
+			"scope": "keyword.operator, constant.character.escape, constant.character.escape.json, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, keyword.operator, punctuation.accessor.js, punctuation.definition.block.tag.jsdoc, storage.type.class.jsdoc"
+		},
+		{
+			"settings": {
+				"foreground": "#d5d8df"
+			},
+			"name": "Brackets",
+			"scope": "punctuation.definition.block, meta.parameters, punctuation.definition.parameters, meta.brace.round, punctuation.definition.dictionary, constant.character.escape.backslash.regexp, punctuation.section, punctuation.terminator.statement, variable.other.property.js, support.variable.property.dom.js, punctuation.definition.parameters, punctuation.definition.array, entity.name.function, meta.require, support.function.any-method, meta.tag.sgml.html, punctuation.section.embedded, variable.interpolation, variable.object.property.ts, variable.object.property.tsx, meta.brace.square, punctuation.definition.array, punctuation.definition.binding-pattern.object.js, meta.selectionset.graphql"
+		},
+		{
+			"settings": {
+				"foreground": "#ccff99"
+			},
+			"name": "Variable Alternative",
+			"scope": "entity.other.attribute-name.pseudo-class.css, constant.other.php, markup.italic.markdown, punctuation.definition.italic.markdown, string.regexp, entity.other.attribute-name.pseudo-element.css, meta.image.inline.markdown, string.other.link.description.markdown"
+		},
+		{
+			"settings": {
+				"foreground": "#c2ccd6"
+			},
+			"name": "Property",
+			"scope": "entity.name.tag.reference, meta.embedded.block.php, meta.embedded.line.php, keyword.other.phpdoc.php, meta.separator, variable.object.property.ts, variable.object.property.tsx, variable.other.property.js, support.variable.property.dom.js, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.type.instance.jsdoc, variable.graphql"
+		},
+		{
+			"settings": {
+				"foreground": "#ffcc99"
+			},
+			"name": "CSS and SCSS",
+			"scope": "meta.property-value.css, support.constant.property-value.css, constant.other.color.rgb-value.hex.css, support.constant.font-name.css, meta.property-value.scss"
+		}
+	],
+	"colorSpaceName": "sRGB"
+}

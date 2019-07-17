@@ -1,0 +1,35 @@
+{
+    "name": "spaceland",
+    "displayName": "Spaceland Theme",
+    "description": "A great looking dark theme that draws inspiration from space.",
+    "version": "0.0.1",
+    "publisher": "Luke Davies",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "Theme",
+        "Dark Theme",
+        "Night Theme",
+        "Accessible Theme",
+        "Spaceland Theme",
+        "Space Colored Theme"
+    ],
+    "galleryBanner": {
+        "color": "#171717",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spaceland Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Spaceland Theme-color-theme.json"
+            }
+        ]
+    }
+}

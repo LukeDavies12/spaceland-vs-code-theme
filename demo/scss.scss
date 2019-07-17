@@ -1,0 +1,58 @@
+$primary: #4834d4;
+$light-grey: #c8d6e5;
+$body-txt: #222f3e;
+$headers: black;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: $body-txt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 85%;
+    }
+}
+
+h1,
+h2 {
+    color: $headers;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+}
+
+a {
+    text-decoration: none;
+    transition: color ease .2s;
+}
