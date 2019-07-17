@@ -4,7 +4,12 @@
     "description": "A great looking dark theme that draws inspiration from space.",
     "version": "0.0.1",
     "publisher": "Luke Davies",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LukeDavies12/spaceland-vs-code-theme"
+    },
     "license": "MIT",
+    "icon": "logo.png",
     "engines": {
         "vscode": "^1.36.0"
     },
