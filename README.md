@@ -4,7 +4,8 @@ A Visual Studio Code theme for the wonderers. Fine-tuned for those of us who lik
 
 ## Images
 
-Images here 
+![Javascript Demo Picture](spaceland-demo-1.png)
+
 
 ## Colors
 
