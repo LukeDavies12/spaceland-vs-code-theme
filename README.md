@@ -66,6 +66,6 @@ The icon theme used in the demo is the dark version of icons from the [City Ligh
 
 This is my first theme, so if you see something off, please feel free to [file an issue](https://github.com/sdras/night-owl-vscode-theme/issues)! I'm sure there are things I missed.
 
-To make this theme I used the awesome [New Moon Syntax Theme](https://marketplace.visualstudio.com/items?itemName=taniarascia.new-moon-vscode) as a starting point, and this great article [Creating a VS Code Theme](https://css-tricks.com/creating-a-vs-code-theme/) as a reference.
+To make this theme I used the awesome [New Moon Syntax Theme](https://marketplace.visualstudio.com/items?itemName=taniarascia.new-moon-vscode) as a starting point, and the great article [Creating a VS Code Theme](https://css-tricks.com/creating-a-vs-code-theme/) as a reference.
 
 **Enjoy!**
