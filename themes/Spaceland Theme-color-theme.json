@@ -132,7 +132,7 @@
 				"foreground": "#99ffdd"
 			},
 			"name": "String",
-			"scope": "string, constant.other.symbol, entity.other.inherited-class, punctuation.definition.string, markup.underline.link.image.markdown, string.other.link, markup.raw.inline, markup.inserted, markup.inserted.git_gutter, string.other.link.title.markdown, variable.parameter.url.scss"
+			"scope": "string, constant.other.symbol, entity.other.inherited-class, punctuation.definition.string, markup.underline.link.image.markdown, string.other.link, markup.raw.inline, markup.inserted, markup.inserted.git_gutter, string.other.link.title.markdown, variable.parameter.url.scss, meta.attribute-selector.scss"
 		},
 		{
 			"settings": {
