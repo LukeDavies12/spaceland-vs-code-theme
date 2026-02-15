@@ -1,5 +1,4 @@
 import React from 'react'
-import { This } from 'module'
 
 // I use this syntax when my component fits on one line
 const ListItem = props => <li className="list-item">{props.item.name}</li>

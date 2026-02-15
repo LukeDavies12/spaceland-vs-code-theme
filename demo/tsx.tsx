@@ -1,44 +1,53 @@
-import { Component, OnInit, OnDestroy } from '@angular/core'
-import { Person, SearchService } from '../shared'
-import { ActivatedRoute } from '@angular/router'
-import { Subscription } from 'rxjs'
+'use client'
 
-@Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.css']
-})
-export class SearchComponent implements OnInit, OnDestroy {
-  query: string
-  searchResults: Array<Person>
-  sub: Subscription
+import { useEffect, useState } from 'react'
+import { useParams } from 'next/navigation'
 
-  constructor(
-    private searchService: SearchService,
-    private route: ActivatedRoute
-  ) {}
+type Person = {
+  id: number
+  name: string
+  email: string
+}
 
-  ngOnInit() {
-    this.sub = this.route.params.subscribe(params => {
-      if (params['term']) {
-        this.query = decodeURIComponent(params['term'])
-        this.search()
-      }
-    })
-  }
+export default function SearchPage() {
+  const { term } = useParams<{ term: string }>()
+  const [query, setQuery] = useState('')
+  const [results, setResults] = useState<Person[]>([])
+  const [loading, setLoading] = useState(false)
 
-  search(): void {
-    this.searchService.search(this.query).subscribe(
-      (data: any) => {
-        this.searchResults = data
-      },
-      error => console.log(error)
-    )
-  }
+  useEffect(() => {
+    if (!term) return
+    const decoded = decodeURIComponent(term)
+    setQuery(decoded)
+    search(decoded)
+  }, [term])
 
-  ngOnDestroy() {
-    if (this.sub) {
-      this.sub.unsubscribe()
+  async function search(q: string) {
+    try {
+      setLoading(true)
+      const res = await fetch(`/api/search?term=${encodeURIComponent(q)}`)
+      const data = await res.json()
+      setResults(data)
+    } catch (err) {
+      console.error(err)
+    } finally {
+      setLoading(false)
     }
   }
+
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>Search: {query}</h2>
+
+      {loading && <p>Loading...</p>}
+
+      <ul>
+        {results.map(person => (
+          <li key={person.id}>
+            <strong>{person.name}</strong> – {person.email}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
 }
