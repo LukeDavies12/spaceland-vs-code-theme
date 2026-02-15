@@ -1,14 +1,8 @@
-# Spaceland Theme
+# Spaceland Dark
 
-A Visual Studio Code theme with beautiful, muted color palettes. Fine-tuned for those who code late into the night and appreciate a calm, eye-friendly aesthetic.
+A Visual Studio Code theme with a muted, space based pallete.
 
-## Features
-
-- **OLED-Friendly**: True black background
-- **Accessible**: Muted colors reduce eye strain during extended coding sessions
-- **Comprehensive Syntax Highlighting**: Fine-tuned for JavaScript, TypeScript, React, and more
-
-## Demo Images
+## Demo
 
 Typescript
 ![Typescript Demo Image](spaceland-demo-1.png)
@@ -36,9 +30,6 @@ React
 | Support            | Muted Yellow      | ![#aaaa66](https://singlecolorimage.com/get/aaaa66/15x15) `#aaaa66` |
 | Operator           | Warm Tan          | ![#c9a97a](https://singlecolorimage.com/get/c9a97a/15x15) `#c9a97a` |
 
-## Preferences shown in the preview
-
-The font in the preview image is Monaspace Krypton.
 
 ## Misc
 
@@ -46,4 +37,6 @@ This theme was first created in 2019, then refined a bit in 2026. If you see som
 
 To make this theme I used the article [Creating a VS Code Theme](https://css-tricks.com/creating-a-vs-code-theme/) as reference.
 
-**Enjoy coding among the stars! Best of luck with your programming endeavors.** ✨🪐👽👾🌃
+**Best of luck with your programming endeavors.** ✨🪐👽👾🌃
+
+(The font in the preview image is Monaspace Krypton.)
