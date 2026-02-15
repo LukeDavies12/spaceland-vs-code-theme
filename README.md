@@ -12,22 +12,23 @@ React
 
 ## Colors
 
-| Usage           | Palette      | Hex Code                                                           |
-| --------------- | ------------ | ------------------------------------------------------------------ |
-| Background      | Pure Black   | ![#000000](https://via.placeholder.com/15/000000/000000?text=+) `#000000` |
-| Comment         | Dark Grey    | ![#888888](https://via.placeholder.com/15/888888/000000?text=+) `#888888` |
-| Text/Foreground | Light Grey   | ![#cccccc](https://via.placeholder.com/15/cccccc/000000?text=+) `#cccccc` |
-| Function        | Pink         | ![#ff99dd](https://via.placeholder.com/15/ff99dd/000000?text=+) `#ff99dd` |
-| Variable        | Red          | ![#ff9999](https://via.placeholder.com/15/ff9999/000000?text=+) `#ff9999` |
-| Number          | Orange       | ![#ffcc99](https://via.placeholder.com/15/ffcc99/000000?text=+) `#ffcc99` |
-| Attribute       | Medium Blue  | ![#99ddff](https://via.placeholder.com/15/99ddff/000000?text=+) `#99ddff` |
-| Keyword         | Key Purple   | ![#dd99ff](https://via.placeholder.com/15/dd99ff/000000?text=+) `#dd99ff` |
-| String          | Green        | ![#99ffdd](https://via.placeholder.com/15/99ffdd/000000?text=+) `#99ffdd` |
-| React Component | Blue-Purple  | ![#9999ff](https://via.placeholder.com/15/9999ff/000000?text=+) `#9999ff` |
-| HTML Tag        | Muted Purple | ![#7d7dcc](https://via.placeholder.com/15/7d7dcc/000000?text=+) `#7d7dcc` |
-| Constant/Pseudo | Light Green  | ![#ccff99](https://via.placeholder.com/15/ccff99/000000?text=+) `#ccff99` |
-| Support         | Yellow       | ![#ffff99](https://via.placeholder.com/15/ffff99/000000?text=+) `#ffff99` |
-| Operator        | Lion         | ![#f8cfa0](https://via.placeholder.com/15/f8cfa0/000000?text=+) `#f8cfa0` |
+| Usage           | Palette      | Hex Code                                                            |
+| --------------- | ------------ | ------------------------------------------------------------------- |
+| Background      | Pure Black   | ![#000000](https://singlecolorimage.com/get/000000/15x15) `#000000` |
+| Comment         | Dark Grey    | ![#888888](https://singlecolorimage.com/get/888888/15x15) `#888888` |
+| Text/Foreground | Light Grey   | ![#cccccc](https://singlecolorimage.com/get/cccccc/15x15) `#cccccc` |
+| Function        | Pink         | ![#ff99dd](https://singlecolorimage.com/get/ff99dd/15x15) `#ff99dd` |
+| Variable        | Red          | ![#ff9999](https://singlecolorimage.com/get/ff9999/15x15) `#ff9999` |
+| Number          | Orange       | ![#ffcc99](https://singlecolorimage.com/get/ffcc99/15x15) `#ffcc99` |
+| Attribute       | Medium Blue  | ![#99ddff](https://singlecolorimage.com/get/99ddff/15x15) `#99ddff` |
+| Keyword         | Key Purple   | ![#dd99ff](https://singlecolorimage.com/get/dd99ff/15x15) `#dd99ff` |
+| String          | Green        | ![#99ffdd](https://singlecolorimage.com/get/99ffdd/15x15) `#99ffdd` |
+| React Component | Blue-Purple  | ![#9999ff](https://singlecolorimage.com/get/9999ff/15x15) `#9999ff` |
+| HTML Tag        | Muted Purple | ![#7d7dcc](https://singlecolorimage.com/get/7d7dcc/15x15) `#7d7dcc` |
+| Constant/Pseudo | Light Green  | ![#ccff99](https://singlecolorimage.com/get/ccff99/15x15) `#ccff99` |
+| Support         | Yellow       | ![#ffff99](https://singlecolorimage.com/get/ffff99/15x15) `#ffff99` |
+| Operator        | Lion         | ![#f8cfa0](https://singlecolorimage.com/get/f8cfa0/15x15) `#f8cfa0` |
+
 
 ## Installation
 
@@ -41,7 +42,7 @@ React
 
 ## Preferences shown in the preview
 
-The font in the preview image is Monaspace Krypton, [available here](https://github.com/tonsky/FiraCode). These are the settings I used:
+The font in the preview image is Monaspace Krypton.
 
 The icon theme used in the demo is the dark version of icons from the [City Lights Icon package](https://marketplace.visualstudio.com/items?itemName=Yummygum.city-lights-icon-vsc).
 
