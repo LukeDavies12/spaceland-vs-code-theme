@@ -34,9 +34,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Spaceland Theme",
+                "label": "Spaceland Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Spaceland Theme-color-theme.json"
+                "path": "./themes/Spaceland Dark Theme-color-theme.json"
             }
         ]
     }
