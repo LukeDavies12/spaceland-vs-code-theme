@@ -413,6 +413,13 @@
 			}
 		},
 		{
+			"name": "Prisma Primitive Types",
+			"scope": "support.type.primitive.prisma",
+			"settings": {
+				"foreground": "#9988cc"
+			}
+		},
+		{
 			"name": "Prisma Types",
 			"scope": "storage.type.prisma, support.type.prisma",
 			"settings": {
@@ -431,6 +438,13 @@
 			"scope": "variable.other.property.prisma, variable.other.member.prisma",
 			"settings": {
 				"foreground": "#7391b0"
+			}
+		},
+		{
+			"name": "Prisma Function Attributes (@)",
+			"scope": "entity.name.function.attribute.prisma",
+			"settings": {
+				"foreground": "#668899"
 			}
 		},
 		{
