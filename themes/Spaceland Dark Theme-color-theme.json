@@ -397,6 +397,125 @@
 			"settings": {
 				"foreground": "#414b37"
 			}
+		},
+		{
+			"name": "Prisma Keywords",
+			"scope": "keyword.prisma, storage.type.prisma",
+			"settings": {
+				"foreground": "#aa77cc"
+			}
+		},
+		{
+			"name": "Prisma Block Keywords",
+			"scope": "keyword.block.prisma",
+			"settings": {
+				"foreground": "#aa77cc"
+			}
+		},
+		{
+			"name": "Prisma Types",
+			"scope": "storage.type.prisma, support.type.prisma",
+			"settings": {
+				"foreground": "#9988cc"
+			}
+		},
+		{
+			"name": "Prisma Model Names",
+			"scope": "entity.name.type.prisma, entity.name.class.prisma",
+			"settings": {
+				"foreground": "#cc77aa"
+			}
+		},
+		{
+			"name": "Prisma Field Names",
+			"scope": "variable.other.property.prisma, variable.other.member.prisma",
+			"settings": {
+				"foreground": "#7391b0"
+			}
+		},
+		{
+			"name": "Prisma Attributes",
+			"scope": "entity.other.attribute-name.prisma, support.function.attribute.prisma, punctuation.definition.annotation.prisma",
+			"settings": {
+				"foreground": "#668899"
+			}
+		},
+		{
+			"name": "Prisma Decorator Attributes",
+			"scope": "meta.attribute.prisma",
+			"settings": {
+				"foreground": "#668899"
+			}
+		},
+		{
+			"name": "Prisma Strings",
+			"scope": "string.prisma, string.quoted.double.prisma, string.quoted.single.prisma",
+			"settings": {
+				"foreground": "#6aaa91"
+			}
+		},
+		{
+			"name": "Prisma Comments",
+			"scope": "comment.prisma, comment.line.prisma, comment.block.prisma, punctuation.definition.comment.prisma",
+			"settings": {
+				"foreground": "#666666"
+			}
+		},
+		{
+			"name": "Prisma Numbers",
+			"scope": "constant.numeric.prisma",
+			"settings": {
+				"foreground": "#cc9966"
+			}
+		},
+		{
+			"name": "Prisma Relations",
+			"scope": "support.type.prisma.relation",
+			"settings": {
+				"foreground": "#cc77aa"
+			}
+		},
+		{
+			"name": "Prisma Operators",
+			"scope": "keyword.operator.prisma, punctuation.separator.prisma",
+			"settings": {
+				"foreground": "#c9a97a"
+			}
+		},
+		{
+			"name": "Prisma Brackets",
+			"scope": "punctuation.definition.block.prisma, punctuation.section.prisma",
+			"settings": {
+				"foreground": "#a7aaaf"
+			}
+		},
+		{
+			"name": "Prisma Builtin Functions",
+			"scope": "support.function.prisma",
+			"settings": {
+				"foreground": "#cc77aa"
+			}
+		},
+		{
+			"name": "Prisma Enum Names",
+			"scope": "entity.name.enum.prisma",
+			"settings": {
+				"foreground": "#cc77aa"
+			}
+		},
+		{
+			"name": "Prisma Enum Values",
+			"scope": "constant.enum.prisma",
+			"settings": {
+				"foreground": "#aaaa66"
+			}
+		},
+		{
+			"name": "Prisma Type Modifiers",
+			"scope": "keyword.modifier.prisma, storage.modifier.prisma",
+			"settings": {
+				"foreground": "#aa77cc"
+			}
 		}
 	],
 	"colorSpaceName": "sRGB"
